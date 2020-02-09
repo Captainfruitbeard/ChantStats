@@ -14,7 +14,7 @@ def run_analyses_and_export_results(rep_and_genre, *, output_root_dir, analyses=
     sampling_seed = 99999
     min_num_phrases_per_monomodal_section = 3
     min_num_notes_per_monomodal_section = 80
-    min_num_notes_per_organum_phrase = 12
+    min_num_notes_per_organum_phrase = 20
 
     pieces = load_pieces(rep_and_genre, cfg)
     analyses = analyses or ["pc_freqs", "tendency", "L_and_M__L5_u_M5", "L_and_M__L4_u_M4"]
