@@ -49,7 +49,7 @@ def calculate_results(
     sampling_seed,
     min_num_phrases_per_monomodal_section=3,
     min_num_notes_per_monomodal_section=80,
-    min_num_notes_per_organum_phrase=12,
+    min_num_notes_per_organum_phrase=20,
     modes=None,
     units=None,
     modal_category_keys=None,
