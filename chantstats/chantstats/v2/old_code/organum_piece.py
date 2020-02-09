@@ -415,7 +415,7 @@ class OrganumPhrases:
         mode=None,
         min_num_phrases_per_monomodal_section=None,
         min_num_notes_per_monomodal_section=None,
-        min_num_notes_per_organum_phrase=12,
+        min_num_notes_per_organum_phrase=20,
     ):
         return [p for p in self.phrases if len(p.notes) >= min_num_notes_per_organum_phrase]
 
